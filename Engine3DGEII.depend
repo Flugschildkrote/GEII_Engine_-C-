@@ -1,0 +1,298 @@
+# depslib dependency file v1.0
+1465566004 source:d:\downloads\s_start\s_start\camera.c
+	"Camera.h"
+
+1480000272 d:\downloads\s_start\s_start\camera.h
+	<stdio.h>
+	"math\vector.h"
+	"math\matrix4x4.h"
+	"math\CoordinateSystem.h"
+
+1480000107 d:\downloads\s_start\s_start\math\vector.h
+	"vector2.h"
+	"vector3.h"
+	"vector4.h"
+
+1480000107 d:\downloads\s_start\s_start\math\vector2.h
+	<math.h>
+
+1480000107 d:\downloads\s_start\s_start\math\vector3.h
+	<math.h>
+
+1480000107 d:\downloads\s_start\s_start\math\vector4.h
+	<math.h>
+
+1462981196 d:\downloads\s_start\s_start\math\matrix4x4.h
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"vector.h"
+	"mathutil.h"
+
+1480000016 d:\downloads\s_start\s_start\math\mathutil.h
+
+1463754482 d:\downloads\s_start\s_start\math\coordinatesystem.h
+	<math.h>
+
+1464336828 source:d:\downloads\s_start\s_start\geometricprimitive.c
+	"GeometricPrimitive.h"
+
+1538496040 d:\downloads\s_start\s_start\geometricprimitive.h
+	"math\matrix4x4.h"
+	"stdint.h"
+
+1464968352 source:d:\downloads\s_start\s_start\imageio.c
+	"ImageIO.h"
+
+1464871862 d:\downloads\s_start\s_start\imageio.h
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
+1460640014 d:\downloads\s_start\s_start\string.h
+	<string.h>
+
+1465224014 source:d:\downloads\s_start\s_start\keyboardmanager.c
+	"KeyboardManager.h"
+
+1465223234 d:\downloads\s_start\s_start\keyboardmanager.h
+	<GL\glut.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+
+881808080 d:\downloads\s_start\s_start\glut\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1465222598 source:d:\downloads\s_start\s_start\light.c
+	"Light.h"
+
+1465222598 d:\downloads\s_start\s_start\light.h
+	"math/vector.h"
+
+1484732956 source:d:\downloads\s_start\s_start\main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL\glut.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"MainApp.h"
+	<windows.h>
+
+1539691359 d:\downloads\s_start\s_start\mainapp.h
+	<GL\glut.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"OGL\OGLInfo.h"
+	"MouseManager.h"
+	"KeyboardManager.h"
+	"Camera.h"
+	"Scene.h"
+	"Render.h"
+	"RenderPicking.h"
+	"OGLDrawImmediate.h"
+	"shape/CubeShape.h"
+	"shape/SphereShape.h"
+	"shape/ConeShape.h"
+	"shape/CylinderShape.h"
+	"shape/TorusShape.h"
+	"GeometricPrimitive.h"
+	"ObjParser.h"
+
+1464083054 d:\downloads\s_start\s_start\ogl\oglinfo.h
+	<GL\gl.h>
+	<stdio.h>
+
+1538761870 d:\downloads\s_start\s_start\mousemanager.h
+	<GL\glut.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+
+1538497106 d:\downloads\s_start\s_start\scene.h
+	"shape\VBOShape.h"
+	"Material.h"
+	"Texture.h"
+	"GeometricPrimitive.h"
+
+1464103602 d:\downloads\s_start\s_start\shape\vboshape.h
+	"../OGL/OGLVBO.h"
+
+1464103602 d:\downloads\s_start\s_start\ogl\oglvbo.h
+	<GL\gl.h>
+	"OGLExt.h"
+
+1465553186 d:\downloads\s_start\s_start\ogl\oglext.h
+	<GL\gl.h>
+	"glext.h"
+	"OGLInfo.h"
+	<windows.h>
+
+1333564158 d:\downloads\s_start\s_start\ogl\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1484309052 d:\downloads\s_start\s_start\material.h
+	"math/vector.h"
+	"math/mathutil.h"
+
+1484309052 d:\downloads\s_start\s_start\texture.h
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	"ImageIO.h"
+
+1465290478 d:\downloads\s_start\s_start\render.h
+	"OGL\OGLShader.h"
+	"Scene.h"
+	"Camera.h"
+	"Light.h"
+
+1484309095 d:\downloads\s_start\s_start\ogl\oglshader.h
+	<stdlib.h>
+	<stdio.h>
+	<GL\gl.h>
+	"OGLExt.h"
+	"../math/matrix4x4.h"
+
+1465223782 d:\downloads\s_start\s_start\ogldrawimmediate.h
+	<GL\gl.h>
+	"math/vector.h"
+
+1464795846 d:\downloads\s_start\s_start\shape\cubeshape.h
+	"VBOShape.h"
+
+1463151484 d:\downloads\s_start\s_start\shape\sphereshape.h
+	<math.h>
+	"VBOShape.h"
+	"../math/mathutil.h"
+
+1465206880 d:\downloads\s_start\s_start\shape\coneshape.h
+	<math.h>
+	"VBOShape.h"
+	"../math/mathutil.h"
+
+1465206880 d:\downloads\s_start\s_start\shape\cylindershape.h
+	<math.h>
+	"VBOShape.h"
+	"../math/mathutil.h"
+
+1463152254 d:\downloads\s_start\s_start\shape\torusshape.h
+	<math.h>
+	"VBOShape.h"
+	"../math/mathutil.h"
+
+1538657471 d:\downloads\s_start\s_start\objparser.h
+	<stdio.h>
+	<ctype.h>
+	"String.h"
+	"Scene.h"
+	"math/vector.h"
+	"MtlParser.h"
+
+1464887542 d:\downloads\s_start\s_start\mtlparser.h
+	<stdio.h>
+	<ctype.h>
+	<windows.h>
+	"Material.h"
+	"String.h"
+	"Scene.h"
+
+1539090181 source:d:\downloads\s_start\s_start\mainapp.c
+	"MainApp.h"
+
+1465484238 source:d:\downloads\s_start\s_start\material.c
+	"Material.h"
+
+1463754652 source:d:\downloads\s_start\s_start\math\coordinatesystem.c
+	"CoordinateSystem.h"
+
+1465832782 source:d:\downloads\s_start\s_start\math\mathutil.c
+	"mathutil.h"
+
+1484732953 source:d:\downloads\s_start\s_start\math\matrix4x4.c
+	"matrix4x4.h"
+
+1463146160 source:d:\downloads\s_start\s_start\math\vector.c
+	"vector.h"
+
+1463146160 source:d:\downloads\s_start\s_start\math\vector2.c
+	"vector2.h"
+
+1464870552 source:d:\downloads\s_start\s_start\math\vector3.c
+	"vector3.h"
+
+1463146160 source:d:\downloads\s_start\s_start\math\vector4.c
+	"vector4.h"
+
+1536680010 source:d:\downloads\s_start\s_start\mousemanager.c
+	"MouseManager.h"
+
+1465288300 source:d:\downloads\s_start\s_start\mtlparser.c
+	"MtlParser.h"
+
+1465290880 source:d:\downloads\s_start\s_start\objparser.c
+	"ObjParser.h"
+
+1480000980 source:d:\downloads\s_start\s_start\ogl\oglext.c
+	"OGLExt.h"
+
+1480003039 source:d:\downloads\s_start\s_start\ogl\oglinfo.c
+	"OGLInfo.h"
+	<windows.h>
+
+1464707762 source:d:\downloads\s_start\s_start\ogl\oglshader.c
+	"OGLShader.h"
+
+1464103450 source:d:\downloads\s_start\s_start\ogl\oglvbo.c
+	"OGLVBO.h"
+
+1465225710 source:d:\downloads\s_start\s_start\ogldrawimmediate.c
+	"OGLDrawImmediate.h"
+
+1538490569 source:d:\downloads\s_start\s_start\render.c
+	"Render.h"
+
+1538497589 source:d:\downloads\s_start\s_start\scene.c
+	"Scene.h"
+
+1463154770 source:d:\downloads\s_start\s_start\shape\coneshape.c
+	"ConeShape.h"
+
+1464795846 source:d:\downloads\s_start\s_start\shape\cubeshape.c
+	"CubeShape.h"
+
+1463155776 source:d:\downloads\s_start\s_start\shape\cylindershape.c
+	"CylinderShape.h"
+
+1463152254 source:d:\downloads\s_start\s_start\shape\sphereshape.c
+	"SphereShape.h"
+
+1463152262 source:d:\downloads\s_start\s_start\shape\torusshape.c
+	"TorusShape.h"
+
+1464103626 source:d:\downloads\s_start\s_start\shape\vboshape.c
+	"VBOShape.h"
+
+1460639836 source:d:\downloads\s_start\s_start\string.c
+	"String.h"
+
+1465484552 source:d:\downloads\s_start\s_start\texture.c
+	"Texture.h"
+
+1538493009 d:\downloads\s_start\s_start\renderpicking.h
+	"OGL\OGLShader.h"
+	"Scene.h"
+	"Camera.h"
+
+1539696889 source:d:\downloads\s_start\s_start\renderpicking.c
+	"RenderPicking.h"
+

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Engine3DGEII" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="[UML_DONE]\;[UML_DONE]\Shape\;[IGNORED]\;[IGNORED]\Math\;[UML_DONE]\OGL_Object\;[UML_DONE]\OGL_Object\Shader\;[UML_DONE]\OGL_Object\Buffer\;[UML_DONE]\OGL_Object\Texture\;[UML_DONE]\Camera\;[UML_DONE]\GeomPrimitive\;[UML_DONE]\Light\;[UML_DONE]\Material\;[UML_DONE]\Scene\;[UML_DONE]\Render\;[UML_DONE]\Loaders\;[UML_DONE]\Loaders\ImageIO\;[UML_DONE]\Loaders\ObjParser\;[UML_DONE]\Loaders\MtlParser\;[UML_DONE]\InputManager\;" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Engine3DGEII" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-D_WIN32" />
+					<Add directory="Glut" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="glut32" />
+					<Add directory="Glut" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Camera.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Camera/" />
+		</Unit>
+		<Unit filename="Camera.h">
+			<Option virtualFolder="[UML_DONE]/Camera/" />
+		</Unit>
+		<Unit filename="GeometricPrimitive.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/GeomPrimitive/" />
+		</Unit>
+		<Unit filename="GeometricPrimitive.h">
+			<Option virtualFolder="[UML_DONE]/GeomPrimitive/" />
+		</Unit>
+		<Unit filename="ImageIO.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Loaders/ImageIO/" />
+		</Unit>
+		<Unit filename="ImageIO.h">
+			<Option virtualFolder="[UML_DONE]/Loaders/ImageIO/" />
+		</Unit>
+		<Unit filename="KeyboardManager.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/InputManager/" />
+		</Unit>
+		<Unit filename="KeyboardManager.h">
+			<Option virtualFolder="[UML_DONE]/InputManager/" />
+		</Unit>
+		<Unit filename="Light.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Light/" />
+		</Unit>
+		<Unit filename="Light.h">
+			<Option virtualFolder="[UML_DONE]/Light/" />
+		</Unit>
+		<Unit filename="MainApp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MainApp.h" />
+		<Unit filename="Material.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Material/" />
+		</Unit>
+		<Unit filename="Material.h">
+			<Option virtualFolder="[UML_DONE]/Material/" />
+		</Unit>
+		<Unit filename="MouseManager.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/InputManager/" />
+		</Unit>
+		<Unit filename="MouseManager.h">
+			<Option virtualFolder="[UML_DONE]/InputManager/" />
+		</Unit>
+		<Unit filename="MtlParser.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Loaders/MtlParser/" />
+		</Unit>
+		<Unit filename="MtlParser.h">
+			<Option virtualFolder="[UML_DONE]/Loaders/MtlParser/" />
+		</Unit>
+		<Unit filename="OGLDrawImmediate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OGLDrawImmediate.h" />
+		<Unit filename="OGL/OGLExt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OGL/OGLExt.h" />
+		<Unit filename="OGL/OGLInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OGL/OGLInfo.h" />
+		<Unit filename="OGL/OGLShader.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Shader/" />
+		</Unit>
+		<Unit filename="OGL/OGLShader.h">
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Shader/" />
+		</Unit>
+		<Unit filename="OGL/OGLVBO.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Buffer/" />
+		</Unit>
+		<Unit filename="OGL/OGLVBO.h">
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Buffer/" />
+		</Unit>
+		<Unit filename="ObjParser.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Loaders/ObjParser/" />
+		</Unit>
+		<Unit filename="ObjParser.h">
+			<Option virtualFolder="[UML_DONE]/Loaders/ObjParser/" />
+		</Unit>
+		<Unit filename="Render.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Render/" />
+		</Unit>
+		<Unit filename="Render.h">
+			<Option virtualFolder="[UML_DONE]/Render/" />
+		</Unit>
+		<Unit filename="RenderPicking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RenderPicking.h" />
+		<Unit filename="Scene.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Scene/" />
+		</Unit>
+		<Unit filename="Scene.h">
+			<Option virtualFolder="[UML_DONE]/Scene/" />
+		</Unit>
+		<Unit filename="String.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/" />
+		</Unit>
+		<Unit filename="String.h">
+			<Option virtualFolder="[IGNORED]/" />
+		</Unit>
+		<Unit filename="Texture.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Texture/" />
+		</Unit>
+		<Unit filename="Texture.h">
+			<Option virtualFolder="[UML_DONE]/OGL_Object/Texture/" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="math/CoordinateSystem.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/CoordinateSystem.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/mathutil.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/mathutil.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/matrix4x4.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/matrix4x4.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector2.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector2.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector3.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector3.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector4.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="math/vector4.h">
+			<Option virtualFolder="[IGNORED]/Math/" />
+		</Unit>
+		<Unit filename="shape/ConeShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/ConeShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/CubeShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/CubeShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/CylinderShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/CylinderShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/SphereShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/SphereShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/TorusShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/TorusShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/VBOShape.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Unit filename="shape/VBOShape.h">
+			<Option virtualFolder="[UML_DONE]/Shape/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
