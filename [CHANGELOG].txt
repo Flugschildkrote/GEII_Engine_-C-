@@ -1,0 +1,6 @@
+Ajout des extentions :
+	glCheckFramebufferStatus
+	glGenRenderbuffers
+	glBindRenderbuffer
+	glRenderbufferStorage
+	glFramebufferRenderBuffer
